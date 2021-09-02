@@ -1,100 +1,236 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Documentations - Laminin Solutions</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <style>
-    img {
-      padding: 20px;
-    }
-    .container {
-      padding-top: 30px;
-      max-width: 800px;
-    }
-  </style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to MFSQL Connector’s documentation! &mdash; MFSQL Connector 4.9.27.69 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/MFSQL-Favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Frequently asked questions" href="faq/index.html" /> 
 </head>
-<body>
-  <div style="background-color: #00589e; padding: 40px">
-    <img src="img_3.png" class="img-fluid mx-auto d-block" alt="MFSQL Connector" height="149" width="490" />
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> MFSQL Connector
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">FAQ:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq/index.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">MFSQL Connector Guide:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction/index.html">Introduction to MFSQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started/index.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mfsql-data-exchange-and-reporting-connector/index.html">MFSQL Data Exchange and reporting Connector</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mfsql-database-file-connector/index.html">MFSQL Database File Connector</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mfsql-integration-connector/index.html">MFSQL Integration Connector</a></li>
+<li class="toctree-l1"><a class="reference internal" href="the-connector-framework/index.html">The Connector Framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="version-control/index.html">Version Control</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Blog:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="blogs/index.html">List of blogs</a></li>
+</ul>
+<p class="caption"><span class="caption-text">SQL Components:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="procedures/index.html">Procedures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tables/index.html">Tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions/index.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views/index.html">Views</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">MFSQL Connector</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Welcome to MFSQL Connector’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-mfsql-connector-s-documentation">
+<h1>Welcome to MFSQL Connector’s documentation!<a class="headerlink" href="#welcome-to-mfsql-connector-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Check the sidebar for various topics like ‘Getting Started’.</p>
+<p>Or if you’re looking for something specific - try search <a class="reference internal" href="_images/search-icon.png"><img alt="search_icon" src="_images/search-icon.png" style="height: 20px;" /></a></p>
+<p>Email your suggestions to <a class="reference external" href="mailto:support&#37;&#52;&#48;lamininsolutions&#46;com">support</a>.</p>
+</div>
+<p>Last Updated: 18 Aug 2021</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faq/index.html" class="btn btn-neutral float-right" title="Frequently asked questions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Laminin Solutions Ltd
+
+    </p>
   </div>
-  <div class="container">
-    <h2 style="text-align: center;">Go to <a href="/build">Documentation</a></h2>
-    <img src="connector-tagline.png" class="img-fluid mx-auto d-block" alt="MFSQL Connector Tagline">
-    <p>The MFSQL Connector allow you to rapidly build integrations between M-Files and other applications such as Epicor, SAGE or your custom CRM, MRP application. It creates the platform for your own special applications using the M-Files metadata in collaboration with your own in-house systems.</p>
-    <hr>
-    <p>The MFSQL Connector also allows you to manage, manipulate and explore the metadata for data cleansing or updating of the metadata and build special reports from the data.</p>
-    <p>It all happens because the metadata is readily accessible in SQL and stays in sync with M-Files.</p>
-    <hr>
-    <p>It is built as a framework for use by developers and consultants allowing you to:</p>
-    <ul>
-      <li>Use your MS SQL knowledge and general programming experience to rapidly gain access to the metadata of M-Files.</li>
-      <li>Work with the data in MS SQL keeping it synchronized with M-Files without first mastering the M-Files APIs.</li>
-      <li>Use your development platform of choice to access and work with MS SQL tables, views, functions and stored procedures to build your application and/or to interact with M-Files metadata.</li>
-    </ul>
-    <div class="card-deck">
-      <div class="card border-light mb-3">
-        <div class="card-header d-flex align-items-center justify-content-center h-100" style="background-color: #00a4f2;">
-          <h4 class="my-0 font-weight-normal flex-grow-1" style="color: white;">MFSQL data exchange and reporting Connector</h4>
-        </div>
-        <div class="card-body flex-column h-100">
-          <p>Move your valuable business data with confidence, reliably transfer information in and out of M-Files.</p>
-          <ul>
-            <li>Manipulate M-Files data</li>
-            <li>Combine M-Files data with external data</li>
-            <li>Report using any BI analytics software</li><br><br><!-- hack -->
-          </ul>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
         </div>
       </div>
-      <div class="card border-light mb-3">
-        <div class="card-header d-flex align-items-center justify-content-center h-100" style="background-color: #00589e;">
-          <h4 class="my-0 font-weight-normal flex-grow-1" style="color: white">MFSQL Integration Connector</h4>
-        </div>
-        <div class="card-body flex-column h-100">
-          <p>Unlock the hidden value in your business information, seamlessly synchronize business databases and custom applications with M-Files.</p>
-          <ul>
-            <li>Integrate any third party system</li>
-            <li>Automate processes in the background</li>
-            <li>Relate data from multiple sources</li>
-            <li>Transfer information with its relationships</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card border-light mb-3">
-        <div class="card-header d-flex align-items-center justify-content-center h-100" style="background-color: #92c83e;">
-          <h4 class="my-0 font-weight-normal flex-grow-1" style="color: rgb(0,80,0);">MFSQL Database File Connector</h4>
-        </div>
-        <div class="card-body flex-column h-100">
-          <p>Access all your important files in another application database, provide access to database files in M-Files.</p>
-          <ul>
-            <li>Access files in external databases from M-Files</li>
-            <li>Search on content of files in the external databases</li>
-            <li>Import the files in database files with its metadata</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
+    </section>
+
   </div>
-  <footer style="background-color: #00589e; color: white;" class="page-footer font-small pt-4">
-    <div class="container-fluid text-center text-md-left">
-      <div class="row">
-        <div class="col-sm">
-          <img src="img_5.png" class="img-fluid mx-auto d-block" height="149" width="342" />
-        </div>
-        <div class="col-sm">
-          <p>This guide describes the proprietary M-Files/SQL Productivity and development tool designed by Laminin Solutions Ltd. No part of this document or code related to the tool may be re-used or re-purposed without a registered license of the tools or written permission of the owners.</p>
-          <p>At the same time, we give credit to the many individuals, developers, organisations, and software providers that contributed to making this possible. Credits are detailed in the reference section</p>
-        </div>
-        <hr class="clearfix w-100 d-md-none pb-3">
-        <div class="col-sm">
-          <img src="img_6.png" class="img-fluid mx-auto d-block" height="149" width="344" />
-        </div>
-      </div>
-    </div>
-    <div style="background-color: #004680" class="footer-copyright text-center py-3">
-      Copyright &copy; 2020 Laminin Solutions
-    </div>
-  </footer>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
 </body>
 </html>
